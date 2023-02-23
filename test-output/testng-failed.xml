@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Testfirefox(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="assignment10.Assignment10">
+        <methods>
+          <include name="verifycreationandDeletionOfCource" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- assignment10.Assignment10 -->
+    </classes>
+  </test> <!-- Testfirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

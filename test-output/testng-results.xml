@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[thread Id is21]]>
+    </line>
+    <line>
+      <![CDATA[Launch the website]]>
+    </line>
+    <line>
+      <![CDATA[Login to the website]]>
+    </line>
+    <line>
+      <![CDATA[Hover on manage]]>
+    </line>
+    <line>
+      <![CDATA[title::iNeuron Courses
+Practise]]>
+    </line>
+    <line>
+      <![CDATA[click on manage courses]]>
+    </line>
+    <line>
+      <![CDATA[Courses avaialble are::0]]>
+    </line>
+    <line>
+      <![CDATA[click on add new course]]>
+    </line>
+    <line>
+      <![CDATA[Fill in course details]]>
+    </line>
+    <line>
+      <![CDATA[save button should be enabled]]>
+    </line>
+    <line>
+      <![CDATA[check if user is redirected to manage cource page]]>
+    </line>
+    <line>
+      <![CDATA[check if added course is present]]>
+    </line>
+    <line>
+      <![CDATA[delete the course]]>
+    </line>
+    <line>
+      <![CDATA[Assert the course is deleted]]>
+    </line>
+    <line>
+      <![CDATA[Click on logout]]>
+    </line>
+    <line>
+      <![CDATA[Assert user is redirected to login page]]>
+    </line>
+    <line>
+      <![CDATA[thread Id is21]]>
+    </line>
+    <line>
+      <![CDATA[Launch the website]]>
+    </line>
+    <line>
+      <![CDATA[Login to the website]]>
+    </line>
+    <line>
+      <![CDATA[Hover on manage]]>
+    </line>
+    <line>
+      <![CDATA[title::iNeuron Courses
+Practise]]>
+    </line>
+    <line>
+      <![CDATA[click on manage courses]]>
+    </line>
+    <line>
+      <![CDATA[Courses avaialble are::0]]>
+    </line>
+    <line>
+      <![CDATA[click on add new course]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-19T20:37:28 IST" name="Suite" finished-at="2023-02-19T20:37:55 IST" duration-ms="27600">
+    <groups>
+    </groups>
+    <test started-at="2023-02-19T20:37:28 IST" name="TestChrome" finished-at="2023-02-19T20:37:42 IST" duration-ms="14439">
+      <class name="assignment10.Assignment10">
+        <test-method signature="verifycreationandDeletionOfCource(java.lang.String)[pri:1, instance:assignment10.Assignment10@78b66d36]" started-at="2023-02-19T20:37:28 IST" name="verifycreationandDeletionOfCource" description="verify creation and Deletion Of Cource" finished-at="2023-02-19T20:37:42 IST" duration-ms="14396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[thread Id is21]]>
+            </line>
+            <line>
+              <![CDATA[Launch the website]]>
+            </line>
+            <line>
+              <![CDATA[Login to the website]]>
+            </line>
+            <line>
+              <![CDATA[Hover on manage]]>
+            </line>
+            <line>
+              <![CDATA[title::iNeuron Courses
+Practise]]>
+            </line>
+            <line>
+              <![CDATA[click on manage courses]]>
+            </line>
+            <line>
+              <![CDATA[Courses avaialble are::0]]>
+            </line>
+            <line>
+              <![CDATA[click on add new course]]>
+            </line>
+            <line>
+              <![CDATA[Fill in course details]]>
+            </line>
+            <line>
+              <![CDATA[save button should be enabled]]>
+            </line>
+            <line>
+              <![CDATA[check if user is redirected to manage cource page]]>
+            </line>
+            <line>
+              <![CDATA[check if added course is present]]>
+            </line>
+            <line>
+              <![CDATA[delete the course]]>
+            </line>
+            <line>
+              <![CDATA[Assert the course is deleted]]>
+            </line>
+            <line>
+              <![CDATA[Click on logout]]>
+            </line>
+            <line>
+              <![CDATA[Assert user is redirected to login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifycreationandDeletionOfCource -->
+      </class> <!-- assignment10.Assignment10 -->
+    </test> <!-- TestChrome -->
+    <test started-at="2023-02-19T20:37:42 IST" name="Testfirefox" finished-at="2023-02-19T20:37:55 IST" duration-ms="13125">
+      <class name="assignment10.Assignment10">
+        <test-method signature="verifycreationandDeletionOfCource(java.lang.String)[pri:1, instance:assignment10.Assignment10@2ef3eef9]" started-at="2023-02-19T20:37:42 IST" name="verifycreationandDeletionOfCource" description="verify creation and Deletion Of Cource" finished-at="2023-02-19T20:37:55 IST" duration-ms="13121" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <button> is not clickable at point (1379,100) because another element <a class="nav-menu-item active" href="/course/manage"> obscures it
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1ede2ef5-76ca-45b8-a488-84c51da5f5eb, clickElement {id=2898613b-8826-44a4-9788-0963fb781429}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:45159, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 62131, moz:profile: /var/folders/5l/tcxwsxl550v..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:45159/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (1ede2ef5-76ca-45b8-a488-84c51da5f5eb)] -> xpath: //button[contains(text(),'Add New Course')]]
+Session ID: 1ede2ef5-76ca-45b8-a488-84c51da5f5eb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button> is not clickable at point (1379,100) because another element <a class="nav-menu-item active" href="/course/manage"> obscures it
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1ede2ef5-76ca-45b8-a488-84c51da5f5eb, clickElement {id=2898613b-8826-44a4-9788-0963fb781429}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:45159, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 62131, moz:profile: /var/folders/5l/tcxwsxl550v..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:45159/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (1ede2ef5-76ca-45b8-a488-84c51da5f5eb)] -> xpath: //button[contains(text(),'Add New Course')]]
+Session ID: 1ede2ef5-76ca-45b8-a488-84c51da5f5eb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at assignment10.Assignment10.verifycreationandDeletionOfCource(Assignment10.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[thread Id is21]]>
+            </line>
+            <line>
+              <![CDATA[Launch the website]]>
+            </line>
+            <line>
+              <![CDATA[Login to the website]]>
+            </line>
+            <line>
+              <![CDATA[Hover on manage]]>
+            </line>
+            <line>
+              <![CDATA[title::iNeuron Courses
+Practise]]>
+            </line>
+            <line>
+              <![CDATA[click on manage courses]]>
+            </line>
+            <line>
+              <![CDATA[Courses avaialble are::0]]>
+            </line>
+            <line>
+              <![CDATA[click on add new course]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifycreationandDeletionOfCource -->
+      </class> <!-- assignment10.Assignment10 -->
+    </test> <!-- Testfirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
